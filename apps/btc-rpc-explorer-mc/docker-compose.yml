@@ -6,7 +6,7 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 3002:3002
+      - 3004:3004
     environment:
       # Bitcoin Core connection details
       BTCEXP_BITCOIND_HOST: $BITCOIN_IP
